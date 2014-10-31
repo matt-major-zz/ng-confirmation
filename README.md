@@ -4,11 +4,20 @@ ng-confirmation
 
 **ng-confirmation** is a simple AngularJS directive to add a confirmation dialog to your application.
 
-You can view all the information necessary to configure the directive in the **config** section below.
-
 ----------
 
-```Work in progress...```
+How To
+========
+
+Include the directive in your app and then simply add the element to your views where required.
+
+**Usage**
+```
+<ng-confirmation action-type="" action-style="" on-confirm=""></ng-confirmation>
+```
+
+**Example**
+<ng-confirmation action-type="Save" action-style="success" on-confirm="saveData()"></ng-confirmation>
 
 ----------
 
