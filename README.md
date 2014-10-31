@@ -17,7 +17,9 @@ Include the directive in your app and then simply add the element to your views 
 ```
 
 **Example**
+```
 <ng-confirmation action-type="Save" action-style="success" on-confirm="saveData()"></ng-confirmation>
+```
 
 ----------
 
